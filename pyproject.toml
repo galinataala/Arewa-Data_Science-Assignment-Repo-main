@@ -1,0 +1,22 @@
+[project]
+name = "arewa-data-science-assignment-repo-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gali Nataala", email = "galinataala22@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+arewa-data-science-assignment-repo-main = "arewa_data_science_assignment_repo_main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
